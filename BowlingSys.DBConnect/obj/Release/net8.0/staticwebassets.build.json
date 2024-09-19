@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "k6HNnvnoLt/PublcMeHGbdV6jkhSvN5sALB8Q2bWDIU=",
+  "Source": "BowlingSys.DBConnect",
+  "BasePath": "_content/BowlingSys.DBConnect",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

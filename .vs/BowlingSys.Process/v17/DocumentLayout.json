@@ -1,22 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\t00225804\\Downloads\\Project\\BowlingSys.Process\\",
+  "WorkspaceRootPath": "C:\\Users\\t00225804\\Downloads\\C-Sharp-Micro-Service\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{035ABE95-0C8F-405C-AC63-D8B446BCE314}|BowlingSys.Process\\BowlingSys.Process.csproj|c:\\users\\t00225804\\downloads\\project\\bowlingsys.process\\bowlingsys.process\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5A481283-6740-4C38-B00A-B16691CBB352}|BowlingSys.DBConnect\\BowlingSys.DBConnect.csproj|c:\\users\\t00225804\\downloads\\c-sharp-micro-service\\bowlingsys.dbconnect\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A481283-6740-4C38-B00A-B16691CBB352}|BowlingSys.DBConnect\\BowlingSys.DBConnect.csproj|solutionrelative:bowlingsys.dbconnect\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035ABE95-0C8F-405C-AC63-D8B446BCE314}|BowlingSys.Process\\BowlingSys.Process.csproj|c:\\users\\t00225804\\downloads\\c-sharp-micro-service\\bowlingsys.process\\bowlingsys.process.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{035ABE95-0C8F-405C-AC63-D8B446BCE314}|BowlingSys.Process\\BowlingSys.Process.csproj|solutionrelative:bowlingsys.process\\bowlingsys.process.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906F20E9-48FC-4339-9F75-A60CDA482BBA}|BowlingSys.Handlers\\BowlingSys.Handlers.csproj|c:\\users\\t00225804\\downloads\\c-sharp-micro-service\\bowlingsys.handlers\\bowlingsys.handlers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{906F20E9-48FC-4339-9F75-A60CDA482BBA}|BowlingSys.Handlers\\BowlingSys.Handlers.csproj|solutionrelative:bowlingsys.handlers\\bowlingsys.handlers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A481283-6740-4C38-B00A-B16691CBB352}|BowlingSys.DBConnect\\BowlingSys.DBConnect.csproj|c:\\users\\t00225804\\downloads\\c-sharp-micro-service\\bowlingsys.dbconnect\\bowlingsys.dbconnect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5A481283-6740-4C38-B00A-B16691CBB352}|BowlingSys.DBConnect\\BowlingSys.DBConnect.csproj|solutionrelative:bowlingsys.dbconnect\\bowlingsys.dbconnect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B31868-CD47-4506-B267-695F2A99A17C}|BowlingSys.Controllers\\BowlingSys.Controllers.csproj|c:\\users\\t00225804\\downloads\\c-sharp-micro-service\\bowlingsys.controllers\\bowlingsys.controllers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C5B31868-CD47-4506-B267-695F2A99A17C}|BowlingSys.Controllers\\BowlingSys.Controllers.csproj|solutionrelative:bowlingsys.controllers\\bowlingsys.controllers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035ABE95-0C8F-405C-AC63-D8B446BCE314}|BowlingSys.Process\\BowlingSys.Process.csproj|c:\\users\\t00225804\\downloads\\c-sharp-micro-service\\bowlingsys.process\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{035ABE95-0C8F-405C-AC63-D8B446BCE314}|BowlingSys.Process\\BowlingSys.Process.csproj|solutionrelative:bowlingsys.process\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{035ABE95-0C8F-405C-AC63-D8B446BCE314}|BowlingSys.Process\\BowlingSys.Process.csproj|c:\\users\\t00225804\\downloads\\project\\bowlingsys.process\\bowlingsys.process\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{035ABE95-0C8F-405C-AC63-D8B446BCE314}|BowlingSys.Process\\BowlingSys.Process.csproj|solutionrelative:bowlingsys.process\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{035ABE95-0C8F-405C-AC63-D8B446BCE314}|BowlingSys.Process\\BowlingSys.Process.csproj|c:\\users\\t00225804\\downloads\\project\\bowlingsys.process\\bowlingsys.process\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{035ABE95-0C8F-405C-AC63-D8B446BCE314}|BowlingSys.Process\\BowlingSys.Process.csproj|solutionrelative:bowlingsys.process\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{035ABE95-0C8F-405C-AC63-D8B446BCE314}|BowlingSys.Process\\BowlingSys.Process.csproj|c:\\users\\t00225804\\downloads\\project\\bowlingsys.process\\bowlingsys.process\\bowlingsys.process.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{035ABE95-0C8F-405C-AC63-D8B446BCE314}|BowlingSys.Process\\BowlingSys.Process.csproj|c:\\users\\t00225804\\downloads\\c-sharp-micro-service\\bowlingsys.process\\bowlingsys.process.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{035ABE95-0C8F-405C-AC63-D8B446BCE314}|BowlingSys.Process\\BowlingSys.Process.csproj|solutionrelative:bowlingsys.process\\bowlingsys.process.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{035ABE95-0C8F-405C-AC63-D8B446BCE314}|BowlingSys.Process\\BowlingSys.Process.csproj|c:\\users\\t00225804\\downloads\\c-sharp-micro-service\\bowlingsys.process\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{035ABE95-0C8F-405C-AC63-D8B446BCE314}|BowlingSys.Process\\BowlingSys.Process.csproj|solutionrelative:bowlingsys.process\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,36 +50,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\Users\\t00225804\\Downloads\\C-Sharp-Micro-Service\\BowlingSys.DBConnect\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "BowlingSys.DBConnect\\Services\\BookingService.cs",
+              "ToolTip": "C:\\Users\\t00225804\\Downloads\\C-Sharp-Micro-Service\\BowlingSys.DBConnect\\Services\\BookingService.cs",
+              "RelativeToolTip": "BowlingSys.DBConnect\\Services\\BookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T12:49:55.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BowlingSys.Controllers",
+              "DocumentMoniker": "C:\\Users\\t00225804\\Downloads\\C-Sharp-Micro-Service\\BowlingSys.Controllers\\BowlingSys.Controllers.csproj",
+              "RelativeDocumentMoniker": "BowlingSys.Controllers\\BowlingSys.Controllers.csproj",
+              "ToolTip": "C:\\Users\\t00225804\\Downloads\\C-Sharp-Micro-Service\\BowlingSys.Controllers\\BowlingSys.Controllers.csproj",
+              "RelativeToolTip": "BowlingSys.Controllers\\BowlingSys.Controllers.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-19T12:42:32.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BowlingSys.DBConnect",
+              "DocumentMoniker": "C:\\Users\\t00225804\\Downloads\\C-Sharp-Micro-Service\\BowlingSys.DBConnect\\BowlingSys.DBConnect.csproj",
+              "RelativeDocumentMoniker": "BowlingSys.DBConnect\\BowlingSys.DBConnect.csproj",
+              "ToolTip": "C:\\Users\\t00225804\\Downloads\\C-Sharp-Micro-Service\\BowlingSys.DBConnect\\BowlingSys.DBConnect.csproj",
+              "RelativeToolTip": "BowlingSys.DBConnect\\BowlingSys.DBConnect.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-19T12:42:31.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAGoIAAAAAAAAAAAjwH8IAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-09-19T12:38:36.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BowlingSys.Handlers",
+              "DocumentMoniker": "C:\\Users\\t00225804\\Downloads\\C-Sharp-Micro-Service\\BowlingSys.Handlers\\BowlingSys.Handlers.csproj",
+              "RelativeDocumentMoniker": "BowlingSys.Handlers\\BowlingSys.Handlers.csproj",
+              "ToolTip": "C:\\Users\\t00225804\\Downloads\\C-Sharp-Micro-Service\\BowlingSys.Handlers\\BowlingSys.Handlers.csproj",
+              "RelativeToolTip": "BowlingSys.Handlers\\BowlingSys.Handlers.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-19T12:35:33.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BowlingSys.Process",
+              "DocumentMoniker": "C:\\Users\\t00225804\\Downloads\\C-Sharp-Micro-Service\\BowlingSys.Process\\BowlingSys.Process.csproj",
+              "RelativeDocumentMoniker": "BowlingSys.Process\\BowlingSys.Process.csproj",
+              "ToolTip": "C:\\Users\\t00225804\\Downloads\\C-Sharp-Micro-Service\\BowlingSys.Process\\BowlingSys.Process.csproj",
+              "RelativeToolTip": "BowlingSys.Process\\BowlingSys.Process.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-19T12:18:51.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\t00225804\\Downloads\\Project\\BowlingSys.Process\\BowlingSys.Process\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\t00225804\\Downloads\\C-Sharp-Micro-Service\\BowlingSys.Process\\Program.cs",
               "RelativeDocumentMoniker": "BowlingSys.Process\\Program.cs",
-              "ToolTip": "C:\\Users\\t00225804\\Downloads\\Project\\BowlingSys.Process\\BowlingSys.Process\\Program.cs",
+              "ToolTip": "C:\\Users\\t00225804\\Downloads\\C-Sharp-Micro-Service\\BowlingSys.Process\\Program.cs",
               "RelativeToolTip": "BowlingSys.Process\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T11:27:33.929Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookingController.cs",
-              "DocumentMoniker": "C:\\Users\\t00225804\\Downloads\\Project\\BowlingSys.Process\\BowlingSys.Process\\Controllers\\BookingController.cs",
-              "RelativeDocumentMoniker": "BowlingSys.Process\\Controllers\\BookingController.cs",
-              "ToolTip": "C:\\Users\\t00225804\\Downloads\\Project\\BowlingSys.Process\\BowlingSys.Process\\Controllers\\BookingController.cs",
-              "RelativeToolTip": "BowlingSys.Process\\Controllers\\BookingController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T11:15:24.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\t00225804\\Downloads\\Project\\BowlingSys.Process\\BowlingSys.Process\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\t00225804\\Downloads\\C-Sharp-Micro-Service\\BowlingSys.Process\\appsettings.json",
               "RelativeDocumentMoniker": "BowlingSys.Process\\appsettings.json",
-              "ToolTip": "C:\\Users\\t00225804\\Downloads\\Project\\BowlingSys.Process\\BowlingSys.Process\\appsettings.json",
+              "ToolTip": "C:\\Users\\t00225804\\Downloads\\C-Sharp-Micro-Service\\BowlingSys.Process\\appsettings.json",
               "RelativeToolTip": "BowlingSys.Process\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -69,11 +157,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "BowlingSys.Process.http",
-              "DocumentMoniker": "C:\\Users\\t00225804\\Downloads\\Project\\BowlingSys.Process\\BowlingSys.Process\\BowlingSys.Process.http",
+              "DocumentMoniker": "C:\\Users\\t00225804\\Downloads\\C-Sharp-Micro-Service\\BowlingSys.Process\\BowlingSys.Process.http",
               "RelativeDocumentMoniker": "BowlingSys.Process\\BowlingSys.Process.http",
-              "ToolTip": "C:\\Users\\t00225804\\Downloads\\Project\\BowlingSys.Process\\BowlingSys.Process\\BowlingSys.Process.http",
+              "ToolTip": "C:\\Users\\t00225804\\Downloads\\C-Sharp-Micro-Service\\BowlingSys.Process\\BowlingSys.Process.http",
               "RelativeToolTip": "BowlingSys.Process\\BowlingSys.Process.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",

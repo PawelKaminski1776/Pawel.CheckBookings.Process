@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingSys.Process", "BowlingSys.Process\BowlingSys.Process.csproj", "{035ABE95-0C8F-405C-AC63-D8B446BCE314}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BowlingSys.Process", "BowlingSys.Process\BowlingSys.Process.csproj", "{035ABE95-0C8F-405C-AC63-D8B446BCE314}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingSys.Controllers", "BowlingSys.Controllers\BowlingSys.Controllers.csproj", "{C5B31868-CD47-4506-B267-695F2A99A17C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingSys.DBConnect", "BowlingSys.DBConnect\BowlingSys.DBConnect.csproj", "{5A481283-6740-4C38-B00A-B16691CBB352}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingSys.Handlers", "BowlingSys.Handlers\BowlingSys.Handlers.csproj", "{906F20E9-48FC-4339-9F75-A60CDA482BBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{035ABE95-0C8F-405C-AC63-D8B446BCE314}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{035ABE95-0C8F-405C-AC63-D8B446BCE314}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{035ABE95-0C8F-405C-AC63-D8B446BCE314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5B31868-CD47-4506-B267-695F2A99A17C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5B31868-CD47-4506-B267-695F2A99A17C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5B31868-CD47-4506-B267-695F2A99A17C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B31868-CD47-4506-B267-695F2A99A17C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A481283-6740-4C38-B00A-B16691CBB352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A481283-6740-4C38-B00A-B16691CBB352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A481283-6740-4C38-B00A-B16691CBB352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A481283-6740-4C38-B00A-B16691CBB352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{906F20E9-48FC-4339-9F75-A60CDA482BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{906F20E9-48FC-4339-9F75-A60CDA482BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{906F20E9-48FC-4339-9F75-A60CDA482BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{906F20E9-48FC-4339-9F75-A60CDA482BBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
