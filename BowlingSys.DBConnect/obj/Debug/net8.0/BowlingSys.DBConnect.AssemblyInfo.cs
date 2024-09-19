@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BowlingSys.DBConnect")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00bc2772e63cc27e0dedad54fbfa703396647460")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adb1f78c83c50f538214f96d5611ede9fc6c5716")]
 [assembly: System.Reflection.AssemblyProductAttribute("BowlingSys.DBConnect")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BowlingSys.DBConnect")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

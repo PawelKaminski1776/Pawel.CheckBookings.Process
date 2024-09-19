@@ -1,34 +1,23 @@
-﻿using System;
-using System.Data;
-using System.Data.SqlClient;
+﻿using BowlingSys.DBConnect;
+using BowlingSys.Entities.BookingDBEntities;
 
-namespace BowlingSys.DBConnect.Services
+namespace BowlingSys.Services.BookingService
 {
     public class BookingService
     {
         private readonly string _connectionString;
+        private DBConnect.DBConnect _DBConnect;
 
-        public BookingService(string connectionString)
+        public BookingService(string connectionString, DBConnect.DBConnect dBConnect)
         {
             _connectionString = connectionString;
+            _DBConnect = dBConnect;
         }
 
-        public DataTable GetEmployeeById(int employeeId)
+        public GetLaneResult CallGetLane_SP(string StoredProcedure, string[] parameters)
         {
-            using (SqlConnection connection = new SqlConnection(_connectionString))
-            {
-                using (SqlCommand command = new SqlCommand("GetEmployeeById", connection))
-                {
-                    command.CommandType = CommandType.StoredProcedure;
-                    command.Parameters.Add(new SqlParameter("@EmployeeId", employeeId));
-
-                    SqlDataAdapter adapter = new SqlDataAdapter(command);
-                    DataTable dataTable = new DataTable();
-                    adapter.Fill(dataTable);
-
-                    return dataTable;
-                }
-            }
+            GetLaneResult result = (GetLaneResult)_DBConnect.SelectAndRunStoredProcedure("GetLane", parameters);
+            return result;
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using NServiceBus;
 
 namespace BowlingSys.Process.Controllers
 {
@@ -15,10 +16,10 @@ namespace BowlingSys.Process.Controllers
         }
 
         [HttpGet(Name = "GetLane")]
-        public IActionResult Get(int booking_ID)
+        public async Task Get(int booking_ID)
         {
             // Get Lane Method
-
+            var message = new MyMessage();
             return Ok();
         }
 

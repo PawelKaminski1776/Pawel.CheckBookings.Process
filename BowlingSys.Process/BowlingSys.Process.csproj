@@ -7,12 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.18.1" />
+    <PackageReference Include="NServiceBus" Version="9.2.2" />
+    <PackageReference Include="NServiceBus.Transport.AzureServiceBus" Version="4.2.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\BowlingSys.Controllers\BowlingSys.Controllers.csproj" />
 		<ProjectReference Include="..\BowlingSys.DBConnect\BowlingSys.DBConnect.csproj" />
 		<ProjectReference Include="..\BowlingSys.Handlers\BowlingSys.Handlers.csproj" />
+		<ProjectReference Include="..\BowlingSys.Entities\BowlingSys.Entities.csproj" />
+
 
 	</ItemGroup>
 </Project>
