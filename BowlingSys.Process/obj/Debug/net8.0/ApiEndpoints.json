@@ -1,0 +1,35 @@
+[
+  {
+    "ContainingType": "BowlingSys.Process.Controllers.BowlingSysController",
+    "Method": "Get",
+    "RelativePath": "Api/BowlingSys",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "booking_ID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetLane"
+  },
+  {
+    "ContainingType": "BowlingSys.Process.Controllers.BowlingSysController",
+    "Method": "Get",
+    "RelativePath": "Api/BowlingSys/GetLane",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "booking_ID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
