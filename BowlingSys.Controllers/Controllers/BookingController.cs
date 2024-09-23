@@ -1,26 +1,25 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using NServiceBus;
+using BowlingSys.Contracts.BookingDtos;
 
 namespace BowlingSys.Process.Controllers
 {
     [ApiController]
     [Route("Api/BookingController")]
-    public class BowlingSysController : ControllerBase
+    public class BowlingSysController : BaseController
     {
-
-        private readonly ILogger _logger;
-
-        public BowlingSysController(ILogger logger)
+        public BowlingSysController(IMessageSession messageSession) : base(messageSession)
         {
-            _logger = logger;
         }
 
         [HttpGet(Name = "GetLane")]
-        public async Task Get(int booking_ID)
+        public async Task<IActionResult> Get(int booking_ID)
         {
-            // Get Lane Method
-            var message = new MyMessage();
-            return Ok();
+            var message = new BookingDto
+            {
+                BookingID = booking_ID 
+            };
+            return await HandleMessage(message);
         }
 
     }

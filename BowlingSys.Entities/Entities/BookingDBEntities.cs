@@ -1,8 +1,9 @@
-﻿namespace BowlingSys.Entities.BookingDBEntities
+﻿using NServiceBus;
+namespace BowlingSys.Entities.BookingDBEntities
 {
 
 
-    public class GetLaneResult
+    public class GetLaneResult : IMessage
     {
         public int laneID { get; }
     }

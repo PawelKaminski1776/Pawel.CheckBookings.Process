@@ -1,5 +1,7 @@
 ﻿using BowlingSys.DBConnect;
 using BowlingSys.Entities.BookingDBEntities;
+using System.Data.SqlClient;
+using System.Data;
 
 namespace BowlingSys.Services.BookingService
 {
@@ -14,10 +16,13 @@ namespace BowlingSys.Services.BookingService
             _DBConnect = dBConnect;
         }
 
-        public GetLaneResult CallGetLane_SP(string StoredProcedure, string[] parameters)
+        public async Task<GetLaneResult> CallGetLane_SP(int bookingid)
         {
-            GetLaneResult result = (GetLaneResult)_DBConnect.SelectAndRunStoredProcedure("GetLane", parameters);
-            return result;
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+                 new SqlParameter("@BookingId", SqlDbType.Int) { Value = bookingid },
+            };
+            return (GetLaneResult)_DBConnect.SelectAndRunStoredProcedure("GetLane", parameters);
         }
     }
 }

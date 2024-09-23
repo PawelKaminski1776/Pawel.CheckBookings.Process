@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BowlingSys.DBConnect", "Bow
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BowlingSys.Handlers", "BowlingSys.Handlers\BowlingSys.Handlers.csproj", "{906F20E9-48FC-4339-9F75-A60CDA482BBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingSys.Entities", "BowlingSys.Entities\BowlingSys.Entities.csproj", "{C2F1E851-8A2C-44E3-A2FD-7D44823815D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BowlingSys.Entities", "BowlingSys.Entities\BowlingSys.Entities.csproj", "{C2F1E851-8A2C-44E3-A2FD-7D44823815D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingSys.Contracts", "BowlingSys.Contracts\BowlingSys.Contracts.csproj", "{D9230B56-9D53-4FA5-B315-4EF92CB06CCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C2F1E851-8A2C-44E3-A2FD-7D44823815D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2F1E851-8A2C-44E3-A2FD-7D44823815D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2F1E851-8A2C-44E3-A2FD-7D44823815D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9230B56-9D53-4FA5-B315-4EF92CB06CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9230B56-9D53-4FA5-B315-4EF92CB06CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9230B56-9D53-4FA5-B315-4EF92CB06CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9230B56-9D53-4FA5-B315-4EF92CB06CCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

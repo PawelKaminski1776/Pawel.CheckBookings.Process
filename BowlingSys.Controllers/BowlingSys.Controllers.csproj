@@ -11,5 +11,7 @@
     <PackageReference Include="NServiceBus" Version="9.2.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
-
+	<ItemGroup>
+		<ProjectReference Include="..\BowlingSys.Contracts\BowlingSys.Contracts.csproj" />
+	</ItemGroup>
 </Project>

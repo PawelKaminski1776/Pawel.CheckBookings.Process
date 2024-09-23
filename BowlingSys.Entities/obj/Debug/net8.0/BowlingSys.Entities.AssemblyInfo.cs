@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BowlingSys.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adb1f78c83c50f538214f96d5611ede9fc6c5716")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+226efd9d7821830fa8a9157f5d81d0b82ddc1bfa")]
 [assembly: System.Reflection.AssemblyProductAttribute("BowlingSys.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BowlingSys.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

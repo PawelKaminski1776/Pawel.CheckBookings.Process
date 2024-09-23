@@ -13,16 +13,19 @@ namespace BowlingSys.DBConnect
             _connectionString = connectionString;
         }
 
-        public object SelectAndRunStoredProcedure(string StoredProcedure,string [] parameters)
+        public object SelectAndRunStoredProcedure(string storedProcedure, SqlParameter[] parameters)
         {
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
-                using (SqlCommand command = new SqlCommand(StoredProcedure, connection))
+                using (SqlCommand command = new SqlCommand(storedProcedure, connection))
                 {
                     command.CommandType = CommandType.StoredProcedure;
-                    foreach (string parameter in parameters) {
-                        command.Parameters.Add(parameter);
-                        }
+
+                    if (parameters != null)
+                    {
+                        command.Parameters.AddRange(parameters);
+                    }
+
                     SqlDataAdapter adapter = new SqlDataAdapter(command);
                     DataTable dataTable = new DataTable();
                     adapter.Fill(dataTable);
@@ -31,5 +34,6 @@ namespace BowlingSys.DBConnect
                 }
             }
         }
+
     }
 }
