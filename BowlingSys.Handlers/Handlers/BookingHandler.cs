@@ -17,11 +17,8 @@ namespace BowlingSys.Handlers.Handlers
         public Task Handle(BookingDto message, IMessageHandlerContext context)
         {
             var otherMessage = new GetLaneResult();
-
-
-            var result = _bookingService.CallGetLane_SP(message.BookingID);
-
-            return context.Send(otherMessage);
+            Console.WriteLine($"Yes Yes Yes \n\n\n\n\n YEs YES");
+            return Task.CompletedTask;
         }
     }
 

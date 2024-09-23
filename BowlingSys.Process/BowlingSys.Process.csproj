@@ -20,5 +20,6 @@
 		<ProjectReference Include="..\BowlingSys.DBConnect\BowlingSys.DBConnect.csproj" />
 		<ProjectReference Include="..\BowlingSys.Handlers\BowlingSys.Handlers.csproj" />
 		<ProjectReference Include="..\BowlingSys.Entities\BowlingSys.Entities.csproj" />
+	    <ProjectReference Include="..\BowlingSys.Contracts\BowlingSys.Contracts.csproj" />
 	</ItemGroup>
 </Project>

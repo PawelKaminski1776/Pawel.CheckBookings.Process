@@ -7,12 +7,10 @@ namespace BowlingSys.Services.BookingService
 {
     public class BookingService
     {
-        private readonly string _connectionString;
         private DBConnect.DBConnect _DBConnect;
 
-        public BookingService(string connectionString, DBConnect.DBConnect dBConnect)
+        public BookingService( DBConnect.DBConnect dBConnect)
         {
-            _connectionString = connectionString;
             _DBConnect = dBConnect;
         }
 

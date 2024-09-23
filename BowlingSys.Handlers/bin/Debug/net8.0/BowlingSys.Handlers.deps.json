@@ -234,6 +234,7 @@
       "System.Security.Principal.Windows/4.7.0": {},
       "BowlingSys.Contracts/1.0.0": {
         "dependencies": {
+          "NServiceBus": "9.2.2",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {

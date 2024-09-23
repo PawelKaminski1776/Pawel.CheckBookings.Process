@@ -18,15 +18,15 @@
         "FileVersion": "1.0.0"
       },
       {
-        "FullName": "BowlingSys.DBConnect, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-        "FileVersion": "1.0.0"
-      },
-      {
-        "FullName": "BowlingSys.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "FullName": "BowlingSys.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
         "FileVersion": "1.0.0"
       },
       {
         "FullName": "NServiceBus.MessageInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c",
+        "FileVersion": "1.0.0"
+      },
+      {
+        "FullName": "BowlingSys.DBConnect, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
         "FileVersion": "1.0.0"
       },
       {
@@ -35,6 +35,10 @@
       },
       {
         "FullName": "BowlingSys.Controllers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "FileVersion": "1.0.0"
+      },
+      {
+        "FullName": "BowlingSys.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
         "FileVersion": "1.0.0"
       },
       {
@@ -1380,16 +1384,23 @@
     {
       "Name": "NServiceBus.LearningSynchronizedStorage",
       "EnabledByDefault": false,
-      "Active": false,
-      "PrerequisiteStatus": null,
+      "Active": true,
+      "PrerequisiteStatus": {
+        "IsSatisfied": true,
+        "Reasons": [
+          
+        ]
+      },
       "Dependencies": [
         [
           "NServiceBus.Features.SynchronizedStorage"
         ]
       ],
       "Version": "9.2.2",
-      "StartupTasks": null,
-      "DependenciesAreMet": false
+      "StartupTasks": [
+        
+      ],
+      "DependenciesAreMet": true
     },
     {
       "Name": "NServiceBus.SerializationFeature",
@@ -1845,9 +1856,9 @@
     }
   ],
   "Hosting": {
-    "HostId": "db433ade-0eb9-61f7-3bae-3b23cc82157a",
-    "HostDisplayName": "1XXC025A58F20F6",
-    "MachineName": "1XXC025A58F20F6",
+    "HostId": "55f4e653-7c23-10b4-3ebc-d991b605c76c",
+    "HostDisplayName": "1XXC025A58DD1FD",
+    "MachineName": "1XXC025A58DD1FD",
     "OSPlatform": 2,
     "OSVersion": "Microsoft Windows NT 10.0.22631.0",
     "IsServerGC": true,
@@ -1855,9 +1866,9 @@
     "ProcessorCount": 16,
     "Is64BitProcess": true,
     "CLRVersion": "8.0.8",
-    "WorkingSet": 72679424,
+    "WorkingSet": 72773632,
     "SystemPageSize": 4096,
-    "HostName": "1xxc025a58f20f6",
+    "HostName": "1xxc025a58dd1fd",
     "UserName": "t00225804",
     "PathToExe": "C:\\Users\\t00225804\\Downloads\\C-Sharp-Micro-Service\\BowlingSys.Process\\bin\\Debug\\net8.0\\BowlingSys.Process.dll"
   },
@@ -1884,6 +1895,12 @@
       "BowlingSys.Entities.BookingDBEntities.GetLaneResult",
       "BowlingSys.Contracts.BookingDtos.BookingDto"
     ]
+  },
+  "Persistence": {
+    "Sagas": {
+      "Type": "NServiceBus.LearningPersistence",
+      "Version": "9.2.2"
+    }
   },
   "Receiving": {
     "LocalQueueAddress": {

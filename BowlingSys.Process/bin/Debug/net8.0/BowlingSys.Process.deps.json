@@ -9,6 +9,7 @@
       "BowlingSys.Process/1.0.0": {
         "dependencies": {
           "Azure.Messaging.ServiceBus": "7.18.1",
+          "BowlingSys.Contracts": "1.0.0",
           "BowlingSys.Controllers": "1.0.0",
           "BowlingSys.DBConnect": "1.0.0",
           "BowlingSys.Entities": "1.0.0",
@@ -527,6 +528,7 @@
       "System.Threading.Tasks.Extensions/4.5.4": {},
       "BowlingSys.Contracts/1.0.0": {
         "dependencies": {
+          "NServiceBus": "9.2.2",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {

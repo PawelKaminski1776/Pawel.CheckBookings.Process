@@ -1,15 +1,10 @@
-using NServiceBus;
-using Azure.Messaging.ServiceBus;
-using NServiceBus.Extensions.Hosting;
-using Newtonsoft;
-using NServiceBus.Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json;
 using System.Globalization;
 using BowlingSys.Services.BookingService;
 using BowlingSys.Handlers.Handlers;
-using BowlingSys.Entities.BookingDBEntities;
 using BowlingSys.DBConnect;
+using BowlingSys.Contracts.BookingDtos;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,7 +18,7 @@ builder.Services.AddScoped<BookingService>(provider =>
 {
     var dbConnect = provider.GetRequiredService<DBConnect>();
     var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-    return new BookingService(connectionString, dbConnect);
+    return new BookingService(dbConnect);
 });
 
 builder.Services.AddControllers();
@@ -48,10 +43,12 @@ serialization.Settings(settings);
 
 
 var transport = endpointConfiguration.UseTransport<LearningTransport>();
+var persistence = endpointConfiguration.UsePersistence<LearningPersistence>();
+
 
 var routing = transport.Routing();
-routing.RouteToEndpoint(typeof(GetLaneResult), "DestinationEndpoint");
-
+routing.RouteToEndpoint(typeof(BookingDto), "DestinationEndpoint");
+endpointConfiguration.AssemblyScanner().ScanFileSystemAssemblies = true;
 builder.UseNServiceBus(endpointConfiguration);
 
 var app = builder.Build();
