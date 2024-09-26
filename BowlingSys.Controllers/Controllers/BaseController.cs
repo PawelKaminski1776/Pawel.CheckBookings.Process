@@ -15,7 +15,7 @@ namespace BowlingSys.Process.Controllers
 
         protected async Task<IActionResult> HandleMessage<TMessage>(TMessage message)
         {
-            await _messageSession.Send(message);
+            await _messageSession.Send("NServiceBusHandlers", message);
             return Ok();
         }
     }

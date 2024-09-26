@@ -5,8 +5,18 @@ using BowlingSys.Services.BookingService;
 using BowlingSys.Handlers.Handlers;
 using BowlingSys.DBConnect;
 using BowlingSys.Contracts.BookingDtos;
+using System.Reflection;
+using System.IO;
+
 
 var builder = WebApplication.CreateBuilder(args);
+
+string directoryPath = @"C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0";
+
+foreach (string dll in Directory.GetFiles(directoryPath, "*.dll"))
+{
+    Assembly.LoadFrom(dll);
+}
 
 builder.Services.AddScoped<MyMessageHandler>();
 builder.Services.AddScoped<DBConnect>(provider =>
@@ -25,7 +35,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var endpointConfiguration = new EndpointConfiguration("BowlingSys");
+var endpointConfiguration = new EndpointConfiguration("NServiceBusHandlers");
 
 var settings = new JsonSerializerSettings
 {
@@ -48,7 +58,7 @@ var persistence = endpointConfiguration.UsePersistence<LearningPersistence>();
 
 var routing = transport.Routing();
 routing.RouteToEndpoint(typeof(BookingDto), "DestinationEndpoint");
-endpointConfiguration.AssemblyScanner().ScanFileSystemAssemblies = true;
+var scanner = endpointConfiguration.AssemblyScanner().ScanFileSystemAssemblies = true;
 builder.UseNServiceBus(endpointConfiguration);
 
 var app = builder.Build();

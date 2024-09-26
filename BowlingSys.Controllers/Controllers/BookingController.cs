@@ -15,7 +15,7 @@ namespace BowlingSys.Process.Controllers
         [HttpGet(Name = "GetLane")]
         public async Task<IActionResult> Get(int booking_ID)
         {
-            var message = new BookingDto
+            BookingDto message = new BookingDto
             {
                 BookingID = booking_ID 
             };

@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "BowlingSys.Handlers/1.0.0": {
         "dependencies": {
-          "BowlingSys.Controllers": "1.0.0",
+          "BowlingSys.Contracts": "1.0.0",
           "BowlingSys.DBConnect": "1.0.0",
           "NServiceBus": "9.2.2",
           "Swashbuckle.AspNetCore": "6.4.0"
@@ -239,19 +239,6 @@
         },
         "runtime": {
           "BowlingSys.Contracts.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "BowlingSys.Controllers/1.0.0": {
-        "dependencies": {
-          "BowlingSys.Contracts": "1.0.0",
-          "NServiceBus": "9.2.2",
-          "Swashbuckle.AspNetCore": "6.4.0"
-        },
-        "runtime": {
-          "BowlingSys.Controllers.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -509,11 +496,6 @@
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
     },
     "BowlingSys.Contracts/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "BowlingSys.Controllers/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

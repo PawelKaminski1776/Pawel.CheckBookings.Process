@@ -541,6 +541,7 @@
       "BowlingSys.Controllers/1.0.0": {
         "dependencies": {
           "BowlingSys.Contracts": "1.0.0",
+          "BowlingSys.Handlers": "1.0.0",
           "NServiceBus": "9.2.2",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
@@ -579,7 +580,7 @@
       },
       "BowlingSys.Handlers/1.0.0": {
         "dependencies": {
-          "BowlingSys.Controllers": "1.0.0",
+          "BowlingSys.Contracts": "1.0.0",
           "BowlingSys.DBConnect": "1.0.0",
           "NServiceBus": "9.2.2",
           "Swashbuckle.AspNetCore": "6.4.0"

@@ -2,10 +2,8 @@ C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Handlers\bin\Debug
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Handlers\bin\Debug\net8.0\BowlingSys.Handlers.dll
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Handlers\bin\Debug\net8.0\BowlingSys.Handlers.pdb
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Handlers\bin\Debug\net8.0\BowlingSys.Contracts.dll
-C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Handlers\bin\Debug\net8.0\BowlingSys.Controllers.dll
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Handlers\bin\Debug\net8.0\BowlingSys.DBConnect.dll
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Handlers\bin\Debug\net8.0\BowlingSys.Entities.dll
-C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Handlers\bin\Debug\net8.0\BowlingSys.Controllers.pdb
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Handlers\bin\Debug\net8.0\BowlingSys.DBConnect.pdb
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Handlers\bin\Debug\net8.0\BowlingSys.Contracts.pdb
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Handlers\bin\Debug\net8.0\BowlingSys.Entities.pdb

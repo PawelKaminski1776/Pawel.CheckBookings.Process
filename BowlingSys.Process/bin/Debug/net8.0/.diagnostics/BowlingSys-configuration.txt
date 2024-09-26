@@ -1856,9 +1856,9 @@
     }
   ],
   "Hosting": {
-    "HostId": "55f4e653-7c23-10b4-3ebc-d991b605c76c",
-    "HostDisplayName": "1XXC025A58DD1FD",
-    "MachineName": "1XXC025A58DD1FD",
+    "HostId": "59eb9a82-a423-4f02-7fc8-1b97e3203309",
+    "HostDisplayName": "1XX70B5E86D7990",
+    "MachineName": "1XX70B5E86D7990",
     "OSPlatform": 2,
     "OSVersion": "Microsoft Windows NT 10.0.22631.0",
     "IsServerGC": true,
@@ -1866,9 +1866,9 @@
     "ProcessorCount": 16,
     "Is64BitProcess": true,
     "CLRVersion": "8.0.8",
-    "WorkingSet": 72773632,
+    "WorkingSet": 73216000,
     "SystemPageSize": 4096,
-    "HostName": "1xxc025a58dd1fd",
+    "HostName": "1xx70b5e86d7990",
     "UserName": "t00225804",
     "PathToExe": "C:\\Users\\t00225804\\Downloads\\C-Sharp-Micro-Service\\BowlingSys.Process\\bin\\Debug\\net8.0\\BowlingSys.Process.dll"
   },
@@ -1882,7 +1882,7 @@
     "ValidApplications": "All",
     "CommercialLicense": false,
     "IsExpired": false,
-    "ExpirationDate": "2024-10-07T00:00:00",
+    "ExpirationDate": "2024-10-10T00:00:00",
     "UpgradeProtectionExpirationDate": null
   },
   "Messages": {

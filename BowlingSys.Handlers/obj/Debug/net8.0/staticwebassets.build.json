@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8oWV+7Y8wj39yyhb0F6nGZ11vUbBKXyCc2rG4LCRnwo=",
+  "Hash": "lAhJhu3b1LhT1cGUsWiGFzheIymhJ4ImV5uB6bhJtRg=",
   "Source": "BowlingSys.Handlers",
   "BasePath": "_content/BowlingSys.Handlers",
   "Mode": "Default",
@@ -10,17 +10,6 @@
       "Identity": "C:\\Users\\t00225804\\Downloads\\C-Sharp-Micro-Service\\BowlingSys.Contracts\\BowlingSys.Contracts.csproj",
       "Version": 2,
       "Source": "BowlingSys.Contracts",
-      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
-      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
-    },
-    {
-      "Identity": "C:\\Users\\t00225804\\Downloads\\C-Sharp-Micro-Service\\BowlingSys.Controllers\\BowlingSys.Controllers.csproj",
-      "Version": 2,
-      "Source": "BowlingSys.Controllers",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
       "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
