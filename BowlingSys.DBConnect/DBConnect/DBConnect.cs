@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.Abstractions;
+using Npgsql;
+using System;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -13,27 +15,33 @@ namespace BowlingSys.DBConnect
             _connectionString = connectionString;
         }
 
-        public object SelectAndRunStoredProcedure(string storedProcedure, SqlParameter[] parameters)
+        public async Task<object> SelectAndRunStoredProcedure(string storedProcedure, NpgsqlParameter[] parameters)
         {
-            using (SqlConnection connection = new SqlConnection(_connectionString))
+            await using var dataSource = NpgsqlDataSource.Create(_connectionString);
+            await using var connection = await dataSource.OpenConnectionAsync();
+            await using var transaction = await connection.BeginTransactionAsync();
+
+            using var command = new NpgsqlCommand(storedProcedure, connection)
             {
-                using (SqlCommand command = new SqlCommand(storedProcedure, connection))
-                {
-                    command.CommandType = CommandType.StoredProcedure;
+                CommandType = CommandType.StoredProcedure
+            };
 
-                    if (parameters != null)
-                    {
-                        command.Parameters.AddRange(parameters);
-                    }
-
-                    SqlDataAdapter adapter = new SqlDataAdapter(command);
-                    DataTable dataTable = new DataTable();
-                    adapter.Fill(dataTable);
-
-                    return dataTable;
-                }
+            foreach (var parameter in parameters)
+            {
+                command.Parameters.Add(parameter);
             }
+
+            await using var reader = await command.ExecuteReaderAsync();
+
+            var results = new List<object>();
+            while (await reader.ReadAsync())
+            {
+                results.Add(reader[0]); 
+            }
+
+            return results; 
         }
+
 
     }
 }

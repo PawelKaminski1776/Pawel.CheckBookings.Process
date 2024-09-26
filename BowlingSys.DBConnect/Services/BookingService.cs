@@ -2,6 +2,8 @@
 using BowlingSys.Entities.BookingDBEntities;
 using System.Data.SqlClient;
 using System.Data;
+using Npgsql;
+using AutoMapper;
 
 namespace BowlingSys.Services.BookingService
 {
@@ -16,11 +18,13 @@ namespace BowlingSys.Services.BookingService
 
         public async Task<GetLaneResult> CallGetLane_SP(int bookingid)
         {
-            SqlParameter[] parameters = new SqlParameter[]
+            var config = new MapperConfiguration(cfg => cfg.CreateMap<object, GetLaneResult>());
+            var mapper = new Mapper(config);
+            NpgsqlParameter[] parameters = new NpgsqlParameter[]
             {
-                 new SqlParameter("@BookingId", SqlDbType.Int) { Value = bookingid },
+                 new NpgsqlParameter("@BookingId", SqlDbType.Int) { Value = bookingid },
             };
-            return (GetLaneResult)_DBConnect.SelectAndRunStoredProcedure("GetLane", parameters);
+            return mapper.Map<GetLaneResult>(await _DBConnect.SelectAndRunStoredProcedure("GetLane", parameters));
         }
     }
 }

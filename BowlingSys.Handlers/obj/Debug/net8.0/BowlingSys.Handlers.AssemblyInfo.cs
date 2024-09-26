@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BowlingSys.Handlers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e98ce800b4d3b1153f1a51639edefbb24aadb7a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b30851c4bfdd28e0108218009340cabb3b24e132")]
 [assembly: System.Reflection.AssemblyProductAttribute("BowlingSys.Handlers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BowlingSys.Handlers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
