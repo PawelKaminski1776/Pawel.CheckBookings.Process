@@ -37,6 +37,7 @@ C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\BowlingSys.Process.runtimeconfig.json
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\BowlingSys.Process.dll
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\BowlingSys.Process.pdb
+C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\Azure.Core.Amqp.dll
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\Azure.Messaging.ServiceBus.dll
@@ -44,6 +45,7 @@ C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\Npgsql.dll
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\NServiceBus.Core.dll
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\NServiceBus.Extensions.Hosting.dll
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\NServiceBus.MessageInterfaces.dll
@@ -53,14 +55,8 @@ C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\System.ClientModel.dll
-C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\System.Data.SqlClient.dll
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\System.Memory.Data.dll
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
-C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
-C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
-C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
-C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\BowlingSys.Contracts.dll
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\BowlingSys.Controllers.dll
 C:\Users\t00225804\Downloads\C-Sharp-Micro-Service\BowlingSys.Process\bin\Debug\net8.0\BowlingSys.DBConnect.dll

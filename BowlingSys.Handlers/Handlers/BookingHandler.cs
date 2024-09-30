@@ -18,7 +18,7 @@ namespace BowlingSys.Handlers.Handlers
         {
             var otherMessage = new GetLaneResult();
 
-            otherMessage = _bookingService.CallGetLane_SP(message.BookingID).Result;
+            otherMessage = _bookingService.CallGetLaneByBooking_SP(message.BookingID).Result;
 
             Console.WriteLine(otherMessage);
 

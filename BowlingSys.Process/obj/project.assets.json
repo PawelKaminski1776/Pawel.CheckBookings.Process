@@ -736,23 +736,6 @@
           }
         }
       },
-      "Npgsql.Json.NET/8.0.4": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "13.0.3",
-          "Npgsql": "8.0.4"
-        },
-        "compile": {
-          "lib/net6.0/Npgsql.Json.NET.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Npgsql.Json.NET.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "NServiceBus/9.2.2": {
         "type": "package",
         "dependencies": {
@@ -1151,7 +1134,6 @@
           "BowlingSys.Entities": "1.0.0",
           "NServiceBus": "9.2.2",
           "Npgsql": "8.0.4",
-          "Npgsql.Json.NET": "8.0.4",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "compile": {
@@ -2507,22 +2489,6 @@
         "lib/netstandard2.1/Npgsql.xml",
         "npgsql.8.0.4.nupkg.sha512",
         "npgsql.nuspec",
-        "postgresql.png"
-      ]
-    },
-    "Npgsql.Json.NET/8.0.4": {
-      "sha512": "R1PQq/kzAupaoHRLjrFscKohHsAjB+bZgak7DbwQpRZ2qoOlfviqy2dHbZw/FI4FQYV+Y2UCscaTtcylrtqzrg==",
-      "type": "package",
-      "path": "npgsql.json.net/8.0.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net6.0/Npgsql.Json.NET.dll",
-        "lib/net6.0/Npgsql.Json.NET.xml",
-        "lib/netstandard2.0/Npgsql.Json.NET.dll",
-        "lib/netstandard2.0/Npgsql.Json.NET.xml",
-        "npgsql.json.net.8.0.4.nupkg.sha512",
-        "npgsql.json.net.nuspec",
         "postgresql.png"
       ]
     },

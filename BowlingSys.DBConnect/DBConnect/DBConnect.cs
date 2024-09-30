@@ -17,13 +17,14 @@ namespace BowlingSys.DBConnect
 
         public async Task<object> SelectAndRunStoredProcedure(string storedProcedure, NpgsqlParameter[] parameters)
         {
+            Console.WriteLine(_connectionString);
             await using var dataSource = NpgsqlDataSource.Create(_connectionString);
             await using var connection = await dataSource.OpenConnectionAsync();
             await using var transaction = await connection.BeginTransactionAsync();
 
             using var command = new NpgsqlCommand(storedProcedure, connection)
             {
-                CommandType = CommandType.StoredProcedure
+                CommandType = CommandType.StoredProcedure,
             };
 
             foreach (var parameter in parameters)

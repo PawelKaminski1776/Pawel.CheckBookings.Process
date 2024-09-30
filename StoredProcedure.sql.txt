@@ -1,0 +1,6 @@
+CREATE OR REPLACE PROCEDURE dbo.GetLaneByBooking(in p_bookingid int, out result int)
+AS $$
+BEGIN
+  result := (SELECT * FROM dbo.bookings WHERE booking_id = p_bookingid);
+END
+$$ LANGUAGE plpgsql;
