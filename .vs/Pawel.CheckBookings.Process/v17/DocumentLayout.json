@@ -1,0 +1,457 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11BBABBD-36C5-4604-9AE6-CACA164ACA17}|Pawel.CheckBookings.Controllers\\Pawel.CheckBookings.Controllers.csproj|c:\\users\\pawel\\documents\\pawel.checkbookings.process\\pawel.checkbookings.controllers\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11BBABBD-36C5-4604-9AE6-CACA164ACA17}|Pawel.CheckBookings.Controllers\\Pawel.CheckBookings.Controllers.csproj|solutionrelative:pawel.checkbookings.controllers\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BBABBD-36C5-4604-9AE6-CACA164ACA17}|Pawel.CheckBookings.Controllers\\Pawel.CheckBookings.Controllers.csproj|c:\\users\\pawel\\documents\\pawel.checkbookings.process\\pawel.checkbookings.controllers\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11BBABBD-36C5-4604-9AE6-CACA164ACA17}|Pawel.CheckBookings.Controllers\\Pawel.CheckBookings.Controllers.csproj|solutionrelative:pawel.checkbookings.controllers\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DDBEA5D-BC51-4AD2-89E9-E3F6669846EB}|Pawel.CheckBookings.Entities\\Pawel.CheckBookings.Entities.csproj|c:\\users\\pawel\\documents\\pawel.checkbookings.process\\pawel.checkbookings.entities\\entities\\bookingdbentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DDBEA5D-BC51-4AD2-89E9-E3F6669846EB}|Pawel.CheckBookings.Entities\\Pawel.CheckBookings.Entities.csproj|solutionrelative:pawel.checkbookings.entities\\entities\\bookingdbentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86E13CD-A00A-44CE-87DE-F2E42572E016}|Pawel.CheckBookings.DBConnect\\Pawel.CheckBookings.DBConnect.csproj|c:\\users\\pawel\\documents\\pawel.checkbookings.process\\pawel.checkbookings.dbconnect\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86E13CD-A00A-44CE-87DE-F2E42572E016}|Pawel.CheckBookings.DBConnect\\Pawel.CheckBookings.DBConnect.csproj|solutionrelative:pawel.checkbookings.dbconnect\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86E13CD-A00A-44CE-87DE-F2E42572E016}|Pawel.CheckBookings.DBConnect\\Pawel.CheckBookings.DBConnect.csproj|c:\\users\\pawel\\documents\\pawel.checkbookings.process\\pawel.checkbookings.dbconnect\\dbconnect\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86E13CD-A00A-44CE-87DE-F2E42572E016}|Pawel.CheckBookings.DBConnect\\Pawel.CheckBookings.DBConnect.csproj|solutionrelative:pawel.checkbookings.dbconnect\\dbconnect\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A11771B-A445-456F-A2BD-FDA49513BC1C}|Pawel.CheckBookings.Handlers\\Pawel.CheckBookings.Handlers.csproj|c:\\users\\pawel\\documents\\pawel.checkbookings.process\\pawel.checkbookings.handlers\\handlers\\bookinghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A11771B-A445-456F-A2BD-FDA49513BC1C}|Pawel.CheckBookings.Handlers\\Pawel.CheckBookings.Handlers.csproj|solutionrelative:pawel.checkbookings.handlers\\handlers\\bookinghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F083EB11-4C79-4AD9-B404-915ACEE9CC0B}|Pawel.CheckBookings.Process\\Pawel.CheckBookings.Process.csproj|c:\\users\\pawel\\documents\\pawel.checkbookings.process\\pawel.checkbookings.process\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F083EB11-4C79-4AD9-B404-915ACEE9CC0B}|Pawel.CheckBookings.Process\\Pawel.CheckBookings.Process.csproj|solutionrelative:pawel.checkbookings.process\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{192A1587-EC2B-4CAC-9C3F-0215D87392B8}|Pawel.CheckBookings.Contracts\\Pawel.CheckBookings.Contracts.csproj|c:\\users\\pawel\\documents\\pawel.checkbookings.process\\pawel.checkbookings.contracts\\bookingdtos\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{192A1587-EC2B-4CAC-9C3F-0215D87392B8}|Pawel.CheckBookings.Contracts\\Pawel.CheckBookings.Contracts.csproj|solutionrelative:pawel.checkbookings.contracts\\bookingdtos\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F083EB11-4C79-4AD9-B404-915ACEE9CC0B}|Pawel.CheckBookings.Process\\Pawel.CheckBookings.Process.csproj|c:\\users\\pawel\\documents\\pawel.checkbookings.process\\pawel.checkbookings.process\\pawel.checkbookings.process.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F083EB11-4C79-4AD9-B404-915ACEE9CC0B}|Pawel.CheckBookings.Process\\Pawel.CheckBookings.Process.csproj|solutionrelative:pawel.checkbookings.process\\pawel.checkbookings.process.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A11771B-A445-456F-A2BD-FDA49513BC1C}|Pawel.CheckBookings.Handlers\\Pawel.CheckBookings.Handlers.csproj|c:\\users\\pawel\\documents\\pawel.checkbookings.process\\pawel.checkbookings.handlers\\pawel.checkbookings.handlers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3A11771B-A445-456F-A2BD-FDA49513BC1C}|Pawel.CheckBookings.Handlers\\Pawel.CheckBookings.Handlers.csproj|solutionrelative:pawel.checkbookings.handlers\\pawel.checkbookings.handlers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BBABBD-36C5-4604-9AE6-CACA164ACA17}|Pawel.CheckBookings.Controllers\\Pawel.CheckBookings.Controllers.csproj|c:\\users\\pawel\\documents\\pawel.checkbookings.process\\pawel.checkbookings.controllers\\pawel.checkbookings.controllers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{11BBABBD-36C5-4604-9AE6-CACA164ACA17}|Pawel.CheckBookings.Controllers\\Pawel.CheckBookings.Controllers.csproj|solutionrelative:pawel.checkbookings.controllers\\pawel.checkbookings.controllers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DDBEA5D-BC51-4AD2-89E9-E3F6669846EB}|Pawel.CheckBookings.Entities\\Pawel.CheckBookings.Entities.csproj|c:\\users\\pawel\\documents\\pawel.checkbookings.process\\pawel.checkbookings.entities\\pawel.checkbookings.entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7DDBEA5D-BC51-4AD2-89E9-E3F6669846EB}|Pawel.CheckBookings.Entities\\Pawel.CheckBookings.Entities.csproj|solutionrelative:pawel.checkbookings.entities\\pawel.checkbookings.entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{192A1587-EC2B-4CAC-9C3F-0215D87392B8}|Pawel.CheckBookings.Contracts\\Pawel.CheckBookings.Contracts.csproj|c:\\users\\pawel\\documents\\pawel.checkbookings.process\\pawel.checkbookings.contracts\\pawel.checkbookings.contracts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{192A1587-EC2B-4CAC-9C3F-0215D87392B8}|Pawel.CheckBookings.Contracts\\Pawel.CheckBookings.Contracts.csproj|solutionrelative:pawel.checkbookings.contracts\\pawel.checkbookings.contracts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86E13CD-A00A-44CE-87DE-F2E42572E016}|Pawel.CheckBookings.DBConnect\\Pawel.CheckBookings.DBConnect.csproj|c:\\users\\pawel\\documents\\pawel.checkbookings.process\\pawel.checkbookings.dbconnect\\pawel.checkbookings.dbconnect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B86E13CD-A00A-44CE-87DE-F2E42572E016}|Pawel.CheckBookings.DBConnect\\Pawel.CheckBookings.DBConnect.csproj|solutionrelative:pawel.checkbookings.dbconnect\\pawel.checkbookings.dbconnect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Process\\Pawel.CheckBookings.Process.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BowlingSys.Process\\Pawel.CheckBookings.Process.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Controllers\\Pawel.CheckBookings.Controllers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BowlingSys.Controllers\\Pawel.CheckBookings.Controllers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Process\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BowlingSys.Process\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Contracts\\Pawel.CheckBookings.Contracts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BowlingSys.Contracts\\Pawel.CheckBookings.Contracts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.DBConnect\\Pawel.CheckBookings.DBConnect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BowlingSys.DBConnect\\Pawel.CheckBookings.DBConnect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Entities\\Pawel.CheckBookings.Entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BowlingSys.Entities\\Pawel.CheckBookings.Entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Handlers\\Handlers\\BookingHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BowlingSys.Handlers\\Handlers\\BookingHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Handlers\\Pawel.CheckBookings.Handlers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BowlingSys.Handlers\\Pawel.CheckBookings.Handlers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.DBConnect\\Services\\BookingService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BowlingSys.DBConnect\\Services\\BookingService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.DBConnect\\DBConnect\\DBConnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BowlingSys.DBConnect\\DBConnect\\DBConnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Controllers\\Controllers\\BookingController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BowlingSys.Controllers\\Controllers\\BookingController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Entities\\Entities\\BookingDBEntities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BowlingSys.Entities\\Entities\\BookingDBEntities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Controllers\\Controllers\\BaseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BowlingSys.Controllers\\Controllers\\BaseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Controllers\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Pawel.CheckBookings.Controllers\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Controllers\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Pawel.CheckBookings.Controllers\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T23:17:22.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookingHandler.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Handlers\\Handlers\\BookingHandler.cs",
+              "RelativeDocumentMoniker": "Pawel.CheckBookings.Handlers\\Handlers\\BookingHandler.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Handlers\\Handlers\\BookingHandler.cs",
+              "RelativeToolTip": "Pawel.CheckBookings.Handlers\\Handlers\\BookingHandler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowBQAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T17:37:03.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Process\\Program.cs",
+              "RelativeDocumentMoniker": "Pawel.CheckBookings.Process\\Program.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Process\\Program.cs",
+              "RelativeToolTip": "Pawel.CheckBookings.Process\\Program.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T17:34:19.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingDBEntities.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Entities\\Entities\\BookingDBEntities.cs",
+              "RelativeDocumentMoniker": "Pawel.CheckBookings.Entities\\Entities\\BookingDBEntities.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Entities\\Entities\\BookingDBEntities.cs",
+              "RelativeToolTip": "Pawel.CheckBookings.Entities\\Entities\\BookingDBEntities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T17:43:06.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.DBConnect\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "Pawel.CheckBookings.DBConnect\\Services\\BookingService.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.DBConnect\\Services\\BookingService.cs",
+              "RelativeToolTip": "Pawel.CheckBookings.DBConnect\\Services\\BookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T17:29:21.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DBConnect.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.DBConnect\\DBConnect\\DBConnect.cs",
+              "RelativeDocumentMoniker": "Pawel.CheckBookings.DBConnect\\DBConnect\\DBConnect.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.DBConnect\\DBConnect\\DBConnect.cs",
+              "RelativeToolTip": "Pawel.CheckBookings.DBConnect\\DBConnect\\DBConnect.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAEoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:25:35.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Controllers\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "Pawel.CheckBookings.Controllers\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Controllers\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "Pawel.CheckBookings.Controllers\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T17:33:41.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Pawel.CheckBookings.Handlers.csproj",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Handlers\\Pawel.CheckBookings.Handlers.csproj",
+              "RelativeDocumentMoniker": "Pawel.CheckBookings.Handlers\\Pawel.CheckBookings.Handlers.csproj",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Handlers\\Pawel.CheckBookings.Handlers.csproj",
+              "RelativeToolTip": "Pawel.CheckBookings.Handlers\\Pawel.CheckBookings.Handlers.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-23T17:29:37.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Pawel.CheckBookings.Process.csproj",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Process.csproj",
+              "RelativeDocumentMoniker": "Pawel.CheckBookings.Process\\Pawel.CheckBookings.Process.csproj",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Process.csproj",
+              "RelativeToolTip": "Pawel.CheckBookings.Process\\Pawel.CheckBookings.Process.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-23T17:29:44.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Pawel.CheckBookings.Controllers.csproj",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Controllers\\Pawel.CheckBookings.Controllers.csproj",
+              "RelativeDocumentMoniker": "Pawel.CheckBookings.Controllers\\Pawel.CheckBookings.Controllers.csproj",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Controllers\\Pawel.CheckBookings.Controllers.csproj",
+              "RelativeToolTip": "Pawel.CheckBookings.Controllers\\Pawel.CheckBookings.Controllers.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-23T17:30:00.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookingDto.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Contracts\\BookingDtos\\BookingDto.cs",
+              "RelativeDocumentMoniker": "Pawel.CheckBookings.Contracts\\BookingDtos\\BookingDto.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Contracts\\BookingDtos\\BookingDto.cs",
+              "RelativeToolTip": "Pawel.CheckBookings.Contracts\\BookingDtos\\BookingDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T17:41:27.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Pawel.CheckBookings.Contracts.csproj",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Contracts\\Pawel.CheckBookings.Contracts.csproj",
+              "RelativeDocumentMoniker": "Pawel.CheckBookings.Contracts\\Pawel.CheckBookings.Contracts.csproj",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Contracts\\Pawel.CheckBookings.Contracts.csproj",
+              "RelativeToolTip": "Pawel.CheckBookings.Contracts\\Pawel.CheckBookings.Contracts.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-23T17:30:13.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Pawel.CheckBookings.Entities.csproj",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Entities\\Pawel.CheckBookings.Entities.csproj",
+              "RelativeDocumentMoniker": "Pawel.CheckBookings.Entities\\Pawel.CheckBookings.Entities.csproj",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Entities\\Pawel.CheckBookings.Entities.csproj",
+              "RelativeToolTip": "Pawel.CheckBookings.Entities\\Pawel.CheckBookings.Entities.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-23T17:29:36.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Pawel.CheckBookings.DBConnect.csproj",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.DBConnect\\Pawel.CheckBookings.DBConnect.csproj",
+              "RelativeDocumentMoniker": "Pawel.CheckBookings.DBConnect\\Pawel.CheckBookings.DBConnect.csproj",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.DBConnect\\Pawel.CheckBookings.DBConnect.csproj",
+              "RelativeToolTip": "Pawel.CheckBookings.DBConnect\\Pawel.CheckBookings.DBConnect.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-23T17:29:27.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Pawel.CheckBookings.Controllers.csproj",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Controllers\\Pawel.CheckBookings.Controllers.csproj",
+              "RelativeDocumentMoniker": "BowlingSys.Controllers\\Pawel.CheckBookings.Controllers.csproj",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Controllers\\Pawel.CheckBookings.Controllers.csproj",
+              "RelativeToolTip": "BowlingSys.Controllers\\Pawel.CheckBookings.Controllers.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-23T17:22:08.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Process\\Program.cs",
+              "RelativeDocumentMoniker": "BowlingSys.Process\\Program.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Process\\Program.cs",
+              "RelativeToolTip": "BowlingSys.Process\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T09:23:15.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Pawel.CheckBookings.Contracts.csproj",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Contracts\\Pawel.CheckBookings.Contracts.csproj",
+              "RelativeDocumentMoniker": "BowlingSys.Contracts\\Pawel.CheckBookings.Contracts.csproj",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Contracts\\Pawel.CheckBookings.Contracts.csproj",
+              "RelativeToolTip": "BowlingSys.Contracts\\Pawel.CheckBookings.Contracts.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-23T17:23:05.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Pawel.CheckBookings.DBConnect.csproj",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.DBConnect\\Pawel.CheckBookings.DBConnect.csproj",
+              "RelativeDocumentMoniker": "BowlingSys.DBConnect\\Pawel.CheckBookings.DBConnect.csproj",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.DBConnect\\Pawel.CheckBookings.DBConnect.csproj",
+              "RelativeToolTip": "BowlingSys.DBConnect\\Pawel.CheckBookings.DBConnect.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-23T17:22:41.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Pawel.CheckBookings.Entities.csproj",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Entities\\Pawel.CheckBookings.Entities.csproj",
+              "RelativeDocumentMoniker": "BowlingSys.Entities\\Pawel.CheckBookings.Entities.csproj",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Entities\\Pawel.CheckBookings.Entities.csproj",
+              "RelativeToolTip": "BowlingSys.Entities\\Pawel.CheckBookings.Entities.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-23T17:22:37.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BookingHandler.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Handlers\\Handlers\\BookingHandler.cs",
+              "RelativeDocumentMoniker": "BowlingSys.Handlers\\Handlers\\BookingHandler.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Handlers\\Handlers\\BookingHandler.cs",
+              "RelativeToolTip": "BowlingSys.Handlers\\Handlers\\BookingHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T22:42:34.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Pawel.CheckBookings.Process.csproj",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Process\\Pawel.CheckBookings.Process.csproj",
+              "RelativeDocumentMoniker": "BowlingSys.Process\\Pawel.CheckBookings.Process.csproj",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Process\\Pawel.CheckBookings.Process.csproj",
+              "RelativeToolTip": "BowlingSys.Process\\Pawel.CheckBookings.Process.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-23T17:23:29.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Pawel.CheckBookings.Handlers.csproj",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Handlers\\Pawel.CheckBookings.Handlers.csproj",
+              "RelativeDocumentMoniker": "BowlingSys.Handlers\\Pawel.CheckBookings.Handlers.csproj",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Handlers\\Pawel.CheckBookings.Handlers.csproj",
+              "RelativeToolTip": "BowlingSys.Handlers\\Pawel.CheckBookings.Handlers.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-23T17:23:27.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.DBConnect\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "BowlingSys.DBConnect\\Services\\BookingService.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.DBConnect\\Services\\BookingService.cs",
+              "RelativeToolTip": "BowlingSys.DBConnect\\Services\\BookingService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T22:47:18.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DBConnect.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.DBConnect\\DBConnect\\DBConnect.cs",
+              "RelativeDocumentMoniker": "BowlingSys.DBConnect\\DBConnect\\DBConnect.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.DBConnect\\DBConnect\\DBConnect.cs",
+              "RelativeToolTip": "BowlingSys.DBConnect\\DBConnect\\DBConnect.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T09:23:43.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Controllers\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "BowlingSys.Controllers\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Controllers\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "BowlingSys.Controllers\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T23:10:17.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BookingDBEntities.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Entities\\Entities\\BookingDBEntities.cs",
+              "RelativeDocumentMoniker": "BowlingSys.Entities\\Entities\\BookingDBEntities.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Entities\\Entities\\BookingDBEntities.cs",
+              "RelativeToolTip": "BowlingSys.Entities\\Entities\\BookingDBEntities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T22:53:47.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Controllers\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "BowlingSys.Controllers\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\BowlingSys.Controllers\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "BowlingSys.Controllers\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T23:12:14.986Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

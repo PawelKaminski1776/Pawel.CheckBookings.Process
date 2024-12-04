@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "BowlingSys.Process.Controllers.BowlingSysController",
+    "Method": "GetUserBookings",
+    "RelativePath": "Api/Booking/getBookings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

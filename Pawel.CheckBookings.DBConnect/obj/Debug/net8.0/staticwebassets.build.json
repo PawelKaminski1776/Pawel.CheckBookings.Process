@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "VhCJzS8sb09wutWqT0YSQPa+E+5Wv9NBcluUhgiapHc=",
+  "Source": "Pawel.CheckBookings.DBConnect",
+  "BasePath": "_content/Pawel.CheckBookings.DBConnect",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Entities\\Pawel.CheckBookings.Entities.csproj",
+      "Version": 2,
+      "Source": "Pawel.CheckBookings.Entities",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

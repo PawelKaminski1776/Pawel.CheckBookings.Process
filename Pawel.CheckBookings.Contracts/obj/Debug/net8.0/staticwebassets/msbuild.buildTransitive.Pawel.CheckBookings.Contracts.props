@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Pawel.CheckBookings.Contracts.props" />
+</Project>

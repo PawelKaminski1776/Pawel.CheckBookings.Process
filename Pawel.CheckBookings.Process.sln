@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pawel.CheckBookings.Contracts", "Pawel.CheckBookings.Contracts\Pawel.CheckBookings.Contracts.csproj", "{192A1587-EC2B-4CAC-9C3F-0215D87392B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pawel.CheckBookings.Controllers", "Pawel.CheckBookings.Controllers\Pawel.CheckBookings.Controllers.csproj", "{11BBABBD-36C5-4604-9AE6-CACA164ACA17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pawel.CheckBookings.DBConnect", "Pawel.CheckBookings.DBConnect\Pawel.CheckBookings.DBConnect.csproj", "{B86E13CD-A00A-44CE-87DE-F2E42572E016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pawel.CheckBookings.Entities", "Pawel.CheckBookings.Entities\Pawel.CheckBookings.Entities.csproj", "{7DDBEA5D-BC51-4AD2-89E9-E3F6669846EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pawel.CheckBookings.Handlers", "Pawel.CheckBookings.Handlers\Pawel.CheckBookings.Handlers.csproj", "{3A11771B-A445-456F-A2BD-FDA49513BC1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pawel.CheckBookings.Process", "Pawel.CheckBookings.Process\Pawel.CheckBookings.Process.csproj", "{F083EB11-4C79-4AD9-B404-915ACEE9CC0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{192A1587-EC2B-4CAC-9C3F-0215D87392B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192A1587-EC2B-4CAC-9C3F-0215D87392B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192A1587-EC2B-4CAC-9C3F-0215D87392B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192A1587-EC2B-4CAC-9C3F-0215D87392B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11BBABBD-36C5-4604-9AE6-CACA164ACA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BBABBD-36C5-4604-9AE6-CACA164ACA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BBABBD-36C5-4604-9AE6-CACA164ACA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BBABBD-36C5-4604-9AE6-CACA164ACA17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B86E13CD-A00A-44CE-87DE-F2E42572E016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B86E13CD-A00A-44CE-87DE-F2E42572E016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B86E13CD-A00A-44CE-87DE-F2E42572E016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B86E13CD-A00A-44CE-87DE-F2E42572E016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DDBEA5D-BC51-4AD2-89E9-E3F6669846EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DDBEA5D-BC51-4AD2-89E9-E3F6669846EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DDBEA5D-BC51-4AD2-89E9-E3F6669846EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DDBEA5D-BC51-4AD2-89E9-E3F6669846EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A11771B-A445-456F-A2BD-FDA49513BC1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A11771B-A445-456F-A2BD-FDA49513BC1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A11771B-A445-456F-A2BD-FDA49513BC1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A11771B-A445-456F-A2BD-FDA49513BC1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F083EB11-4C79-4AD9-B404-915ACEE9CC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F083EB11-4C79-4AD9-B404-915ACEE9CC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F083EB11-4C79-4AD9-B404-915ACEE9CC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F083EB11-4C79-4AD9-B404-915ACEE9CC0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB771BA7-2065-4DC2-8B8D-AB3776E6C6A3}
+	EndGlobalSection
+EndGlobal

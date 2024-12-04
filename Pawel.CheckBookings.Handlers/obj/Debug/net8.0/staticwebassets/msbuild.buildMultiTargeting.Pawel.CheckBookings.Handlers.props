@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Pawel.CheckBookings.Handlers.props" />
+</Project>

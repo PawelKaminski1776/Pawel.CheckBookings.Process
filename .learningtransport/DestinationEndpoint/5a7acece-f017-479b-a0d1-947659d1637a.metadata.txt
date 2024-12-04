@@ -1,0 +1,15 @@
+{
+  "NServiceBus.MessageId": "f8d32626-ef49-4dab-b961-b23000d048a2",
+  "NServiceBus.MessageIntent": "Send",
+  "NServiceBus.ConversationId": "b042c308-cb37-4443-9a9f-b23000d048a2",
+  "NServiceBus.CorrelationId": "f8d32626-ef49-4dab-b961-b23000d048a2",
+  "NServiceBus.ReplyToAddress": "NServiceBusHandlers-Instance1",
+  "NServiceBus.OriginatingMachine": "MYLAPTOP",
+  "NServiceBus.OriginatingEndpoint": "NServiceBusHandlers",
+  "$.diagnostics.originating.hostid": "857810f7bcb54bbf82ffcc6197936f5c",
+  "NServiceBus.ContentType": "application\/json",
+  "NServiceBus.EnclosedMessageTypes": "BowlingSys.Contracts.BookingDtos.BookingDto, BowlingSys.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "NServiceBus.Version": "9.2.2",
+  "NServiceBus.TimeSent": "2024-11-22 12:38:20:271938 Z",
+  "traceparent": "00-601bf94a5c1e70ee61d1992a0f0c68e4-1f5584253fd89655-00"
+}

@@ -1,0 +1,31 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Pawel.CheckBookings.Process",
+    "version": "1.0"
+  },
+  "paths": {
+    "/Api/Booking/getBookings": {
+      "get": {
+        "tags": [
+          "BowlingSys"
+        ],
+        "parameters": [
+          {
+            "name": "userid",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

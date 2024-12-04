@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "Hash": "viZ4r6Xmg95sDamgXWwVY5vEws2x+ebtX3WExzc8eME=",
+  "Source": "Pawel.CheckBookings.Controllers",
+  "BasePath": "_content/Pawel.CheckBookings.Controllers",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Contracts\\Pawel.CheckBookings.Contracts.csproj",
+      "Version": 2,
+      "Source": "Pawel.CheckBookings.Contracts",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    },
+    {
+      "Identity": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.DBConnect\\Pawel.CheckBookings.DBConnect.csproj",
+      "Version": 2,
+      "Source": "Pawel.CheckBookings.DBConnect",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    },
+    {
+      "Identity": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Entities\\Pawel.CheckBookings.Entities.csproj",
+      "Version": 2,
+      "Source": "Pawel.CheckBookings.Entities",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    },
+    {
+      "Identity": "C:\\Users\\pawel\\Documents\\Pawel.CheckBookings.Process\\Pawel.CheckBookings.Handlers\\Pawel.CheckBookings.Handlers.csproj",
+      "Version": 2,
+      "Source": "Pawel.CheckBookings.Handlers",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
